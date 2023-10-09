@@ -7,6 +7,8 @@ img {
 }
 
 body {
+  /* tik kod darom svetaine */
+  padding-bottom: 2000px;
   margin: 0;
   background-color: #e2e2e2;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
