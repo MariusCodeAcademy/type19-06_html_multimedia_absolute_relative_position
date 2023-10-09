@@ -1,0 +1,31 @@
+/* Headeris */
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 8px 12px;
+}
+
+.logo,
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo {
+  font-size: 25px;
+  padding: 0.3em 0.6em;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0.4em 1em;
+  display: inline-block;
+  /* tarpas tarp raidziu */
+  letter-spacing: 2px;
+}
+.nav-link:hover,
+.logo:hover {
+  background-color: rgb(197, 197, 197);
+}
