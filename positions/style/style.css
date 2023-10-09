@@ -45,12 +45,16 @@ header {
   background-color: white;
   position: relative;
 }
-.box1 {
+.box {
   height: 100px;
   width: 150px;
   border: 2px solid coral;
   background-color: rgba(255, 127, 80, 0.24);
   position: absolute;
+}
+.box1 {
   right: 0;
   bottom: 0;
+}
+.box2 {
 }
