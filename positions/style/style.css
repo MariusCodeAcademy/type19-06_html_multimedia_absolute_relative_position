@@ -11,6 +11,7 @@ header {
   /* bottom: 0; */
   background-color: #fff;
   padding: 8px 12px;
+  z-index: 10;
 }
 
 .logo,
@@ -55,6 +56,13 @@ header {
 .box1 {
   right: 0;
   bottom: 0;
+  z-index: 0;
 }
 .box2 {
+  /* padeti per viduri */
+  /* virsutinis kairys kampas yra per viduri */
+  top: 50%;
+  left: 50%;
+  /* perstumti i kaire ir virsu per puse elemento dydzio */
+  transform: translate(-50%, -50%);
 }
