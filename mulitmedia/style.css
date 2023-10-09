@@ -7,6 +7,15 @@ img {
   max-width: 100%;
 }
 
+/* helper utility class */
+
+.bg-dark {
+  background-color: #333;
+}
+.w-half {
+  width: 50%;
+}
+
 body {
   background-color: #e4e4e4;
 }
