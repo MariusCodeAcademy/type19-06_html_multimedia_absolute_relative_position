@@ -28,3 +28,8 @@ body {
 .svg-inline:hover .eye {
   fill: yellowgreen;
 }
+
+video {
+  width: 100%;
+  height: auto;
+}
