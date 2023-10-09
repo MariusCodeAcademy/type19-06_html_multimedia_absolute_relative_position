@@ -1,8 +1,14 @@
 /* Headeris */
+body {
+  padding-top: 60px;
+}
 
 header {
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
+  width: 100%;
   top: 0;
+  /* bottom: 0; */
   background-color: #fff;
   padding: 8px 12px;
 }
@@ -28,4 +34,23 @@ header {
 .nav-link:hover,
 .logo:hover {
   background-color: rgb(197, 197, 197);
+}
+
+/* Positions */
+
+.relative {
+  height: 500px;
+  border: 2px solid #000;
+  margin: 0 20px;
+  background-color: white;
+  position: relative;
+}
+.box1 {
+  height: 100px;
+  width: 150px;
+  border: 2px solid coral;
+  background-color: rgba(255, 127, 80, 0.24);
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
