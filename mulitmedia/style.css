@@ -19,3 +19,12 @@ img {
 body {
   background-color: #e4e4e4;
 }
+
+/* svg inline */
+.svg-inline svg {
+  width: 300px;
+  height: 300px;
+}
+.svg-inline:hover .eye {
+  fill: blueviolet;
+}
